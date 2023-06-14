@@ -1,0 +1,45 @@
+/* Write your CSS here */
+* {
+  box-sizing: 0px;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 45px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 22px;
+  }
+}
+.spanEl {
+  color: #c20a72;
+}
+.description {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.button {
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
